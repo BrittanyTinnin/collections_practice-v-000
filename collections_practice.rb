@@ -46,8 +46,8 @@ def add_s(array)
   array.each_with_index.collect do |element, index|
     if element == array[1]
       puts element
-    elsif 
+    elsif
       element << "s"
     end
-
+  end
 end
