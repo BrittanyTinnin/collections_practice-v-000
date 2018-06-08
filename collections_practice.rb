@@ -30,8 +30,8 @@ end
 def find_a(array)
   n_array = []
   array.each do |word|
-    n_array << word.start_with?("a")
-    n_array.to_s
+    if word.start_with?("a")
+      n_array << word
   end
   n_array
 end
