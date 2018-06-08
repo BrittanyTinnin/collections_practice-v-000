@@ -22,8 +22,8 @@ def reverse_array(integers)
 end
 
 def kesha_maker(array)
-  array.each do |word|
   array.to_s
+  array.each do |word|
   binding.pry
   end
 end
