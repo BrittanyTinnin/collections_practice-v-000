@@ -28,6 +28,7 @@ def kesha_maker(array)
 end
 
 def find_a(array)
+  n_array = []
   array.each do |word|
     binding.pry
     n_array << word.start_with?("a")
