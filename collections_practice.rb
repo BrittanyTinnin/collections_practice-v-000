@@ -24,5 +24,6 @@ end
 def kesha_maker(array)
   array.each do |word|
   array.to_s
+  binding.pry
   end
 end
